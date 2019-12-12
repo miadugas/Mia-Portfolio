@@ -773,7 +773,7 @@ footer .credits {
 ======================================*/
 
 /*======================================
-//--//-->   BUTTON
+//--//-->   BUTTONS
 ======================================*/
 
 .button {
@@ -823,6 +823,47 @@ footer .credits {
   line-height: 1.5;
   border-radius: .3rem;
 }
+
+.button:focus {
+  outline: 0;
+}
+
+.button-small:hover {
+  background-color: rgb(230, 167, 73); 
+  color: #fff;
+  transition: all 500ms ease;
+}
+
+.button-b {
+  background-color: rgb(196, 118, 197);
+  color: #fff;
+  border-color: #cde1f8;
+}
+
+.button-big {
+  padding: .9rem 2.3rem;
+  font-size: 1.2rem;
+}
+
+.button-rouded {
+  border-radius: 5rem;
+}
+
+.btn-lg {
+  padding: .5rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: .3rem;
+}
+
+
+
+
+
+
+
+
+
 
 @media (min-width: 577px) {
   .counter-box {
