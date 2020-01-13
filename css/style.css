@@ -1,4 +1,3 @@
-
 /* STYLES GENERALES */
 
 body {
@@ -217,7 +216,7 @@ a:hover {
   width: 25px;
 }
 
-/*--/ Scrolltop s /--*/
+/*--/ SCROLLTOP /--*/
 
 .scrolltop-mf {
   position: relative;
@@ -250,7 +249,7 @@ a:hover {
   text-align: center;
 }
 
-/* Back to top button */
+/* BACK TO THE TOP BUTTON */
 
 .back-to-top {
   position: fixed;
@@ -275,9 +274,7 @@ a:hover {
 }
 
 
-/*======================================
-//--//-->   NAVBAR
-======================================*/
+/* NAVBAR */
 
 .navbar-b {
   /* transition: all .5s ease-in-out; */
@@ -475,9 +472,7 @@ a:hover {
   opacity: 0.9;
 }
 
-/*======================================
-//--//-->   INTRO
-======================================*/
+/* INTRO */
 
 .intro {
   height: 100vh;
@@ -547,9 +542,7 @@ a:hover {
 }
 
 
-/*======================================
-//--//-->   ABOUT
-======================================*/
+/* ABOUT */
 
 .about-mf .box-shadow-full {
   padding-top: 4rem;
@@ -580,9 +573,7 @@ a:hover {
   background-color: #49B5E6;
 }
 
-/*======================================
-//--//-->   PORTFOLIO
-======================================*/
+/* PORTFOLIO */
 
 .work-box {
   margin-bottom: 3rem;
@@ -614,10 +605,6 @@ a:hover {
   font-size: .8rem;
 }
 
-/* .work-content .w-more .w-ctegory {
-  color: #49B5E6;
-} */
-
 .work-content .w-like {
   font-size: 2.5rem;
   color: #49B5E6;
@@ -637,7 +624,6 @@ a:hover {
 }
 
 /* Disabled */
-
 
 .work-box2 {
   margin-bottom: 3rem;
@@ -693,9 +679,7 @@ a:hover {
 
 
 
-/*======================================
-//--//-->   CONTACT
-======================================*/
+/* CONTACT */
 
 .footer-paralax {
   padding: 4rem 0 0 0;
@@ -708,9 +692,8 @@ a:hover {
 .portBtn {
   background-color: cyan;
 }
-/*======================================
-//--//-->   FOOTER
-======================================*/
+
+/*FOOTER*/
 
 footer {
   text-align: center;
@@ -730,15 +713,7 @@ footer .credits {
   margin-bottom: 0;
 }
 
-
-
-/*======================================
-//--//-->   CONtaCT FORM
-======================================*/
-
-/*======================================
-//--//-->   BUTTONS
-======================================*/
+/* BUTTONS */
 
 .button {
   display: inline-block;
@@ -1037,7 +1012,8 @@ footer .credits {
 	margin:0 0 40px;
 }
 
-/* just trying out the banner for each section... */
+/* trying out the banner for each section... */
+
 .c-logo-part{
 	background: url(../img/poligan_bg.jpg) no-repeat left top;
 padding-bottom: 60px;
@@ -1064,78 +1040,4 @@ padding-bottom: 60px;
 }
 .main-section.team h6{
 	margin-bottom:40px;
-} */
-
-
-/* more social */
-/* ul {
-  display: flex;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-ul li {
-  list-style: none;
-}
-
-ul li a {
-  width: 80px;
-  height: 80px;
-  background-color: #fff;
-  text-align: center;
-  line-height: 80px;
-  font-size: 35px;
-  margin: 0 10px;
-  display: block;
-  border-radius: 50%;
-  position: relative;
-  overflow: hidden;
-  border: 3px solid #fff;
-  z-index: 1;
-}
-
-ul li a .icon {
-  position: relative;
-  color: #262626;
-  transition: .5s;
-  z-index: 3;
-}
-
-ul li a:hover .icon {
-  color: #fff;
-  transform: rotateY(360deg);
-}
-
-ul li a:before {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #f00;
-  transition: .5s;
-  z-index: 2;
-}
-
-ul li a:hover:before {
-  top: 0;
-}
-
-ul li:nth-child(1) a:before{
-  background: #3b5999;
-}
-
-ul li:nth-child(2) a:before{
-  background: #55acee;
-}
-
-ul li:nth-child(3) a:before {
-  background: #0077b5;
-}
-
-ul li:nth-child(4) a:before {
-  background: #dd4b39;
-} */
+} 
